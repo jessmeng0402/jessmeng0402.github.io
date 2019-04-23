@@ -1,8 +1,13 @@
 # jessmeng0402.github.io
-<!DOCTYPE html>
+
 <html>
 <head>
     <title> My personal Website </title>
+        <style>
+    body {
+      background-color: lightblue;
+    }
+    </style>
 </head>
 
 <body>
