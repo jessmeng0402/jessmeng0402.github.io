@@ -1,7 +1,14 @@
 /* myStyle.css */
+body {
+    background-image: url("background.jpg");
+    background-color: #F08080;
+
+}
+
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
+
