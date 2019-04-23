@@ -26,5 +26,17 @@ ul {
     font-size: 14px;
     font-family: Helvetica, Arial, sans-serif;
     line-height: 2;
+}
 
+nav > li {
+  display: inline;
+}
+
+nav > ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    font-style: normal;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
 }
