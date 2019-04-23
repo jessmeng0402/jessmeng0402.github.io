@@ -1,0 +1,30 @@
+/* ListStyle.css */
+
+body {
+    background-color: #F08080;
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+nav {
+    text-align: right;
+    display: block;
+
+}
+
+ul {
+    padding: 20px;
+    margin: 5px;
+    list-style-type: square;
+    font-style: normal;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 2;
+
+}
