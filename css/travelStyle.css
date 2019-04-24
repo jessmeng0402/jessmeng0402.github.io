@@ -41,12 +41,6 @@ body {
     border-radius: 5px;
     padding: 100px;
 }
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
 
 #navigation {
     text-align: right;

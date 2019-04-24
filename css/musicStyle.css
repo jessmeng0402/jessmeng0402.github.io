@@ -108,3 +108,18 @@ img {
 #navigation .flex-container >div > a:visited {
   color: white;
 }
+#music {
+    height: 1200px;
+    width: 1200px;
+
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+#music h1 {
+     font-size: 400%;
+     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+     color: white;
+}
