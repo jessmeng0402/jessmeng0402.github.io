@@ -1,0 +1,70 @@
+/* myStyle.css */
+
+body {
+    /*background-image: url("/picture/background.jpg"); */
+    background-color: #F08080;
+    /*background-size: cover; */
+}
+#big-title {
+    height: 1200px;
+    width: 1200px;
+
+    position: fixed;
+    top: 70%;
+    left: 0%;
+    margin-top: -100px;
+    margin-left: -200px;
+    background-color: #80bfff;
+
+}
+#big_title h1 {
+     font-size: 400%;
+     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+     color: white;
+     text-align: center;
+}
+
+#navigation {
+    text-align: right;
+    display: block;
+    top: 0;
+    width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background: transparent;
+}
+.flex-container > div {
+  background: transparent;
+  width: 50px;
+  margin: 5px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 18 px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  border-radius: 7px;
+  border-color: white;
+  border-style: solid;
+  border-line:thin;
+  padding: 10px;
+}
+
+#start h2 {
+    color: white;
+
+}
+
+#navigation .flex-container >div > a:link {
+    color: white;
+}
+
+#navigation .flex-container >div > a:hover {
+    color: yellow;
+}
+
+#navigation .flex-container >div > a:visited {
+  color: white;
+}

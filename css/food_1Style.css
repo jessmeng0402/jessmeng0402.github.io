@@ -1,0 +1,110 @@
+.header {
+  padding: 100px;
+  text-align: left;
+  background: white;
+  color: white;
+  font-size: 30px;
+  border-style: solid;
+  border-color: white;
+  width: 100%;
+  height: 100%;
+  margin: 0px 0px 0px 0px;
+}
+.header h5 {
+    position: absolute;
+    top: 0;
+    left: 10;
+}
+body {
+    background-image: url("/picture/background.jpg");
+    background-color: #F08080;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#navigation {
+    text-align: right;
+    display: block;
+    top: 10;
+    width: 50%;
+}
+
+#places .flex-container {
+  display: flex;
+  flex-direction: row;
+  background: transparent;
+  justify-content: space-around;
+  align-content: space-between;
+
+}
+
+
+#places .flex-container > div {
+  margin: 20px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  border-radius: 7px;
+  border-color: white;
+  border-style: solid;
+  border-line: thin;
+  color: white;
+  flex-basis: 100%;
+}
+#navigation .flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#navigation .flex-container > div {
+  color: blue;
+  flex-basis: 100%;
+  margin: 5px;
+  background: transparent;
+  text-align: center;
+  line-height: 20px;
+  font-size: 18px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  border-radius: 7px;
+  border-color: black;
+  border-style: solid;
+  border-line:thin;
+  padding: 10px;
+
+}
+#navigation .flex-container >div > a {
+    font-size: 18px;
+}
+#navigation .flex-container >div > a:link {
+    color: white;
+}
+
+#navigation .flex-container >div > a:hover {
+    color: yellow;
+}
+
+#navigation .flex-container >div > a:visited {
+  color: white;
+}
+
+#places {
+    height: 1200px;
+    width: 1200px;
+
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+#places h1 {
+     font-size: 400%;
+     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+     color: white;
+}
