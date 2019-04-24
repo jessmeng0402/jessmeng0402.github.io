@@ -16,6 +16,13 @@ img {
 nav {
     text-align: right;
     display: block;
-
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
