@@ -5,6 +5,12 @@ body {
     background-color: #F08080;
 
 }
+h1 {
+    color: white;
+    text align: center;
+    word-spacing: 10px;
+}
+
 
 img {
     display: block;

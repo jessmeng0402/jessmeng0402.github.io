@@ -1,9 +1,25 @@
 /* ListStyle.css */
 
 body {
-    background-color: #F08080;
     background-image: url("/picture/background.jpg");
+    background-color: #F08080;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+#center-title {
+    height: 1200px;
+    width: 1200px;
+
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+div > h1 {
+     font-size: 400%;
+     font-family: Helvetica, Arial, sans-serif;
+     color: white;
 
 }
 
