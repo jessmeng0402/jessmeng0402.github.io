@@ -5,6 +5,7 @@ head {
 body {
     background-image: url("/picture/background.jpg");
     background-color: #F08080;
+    background-size: cover;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 
 }
@@ -93,33 +94,27 @@ img {
 
 #spain {
     background-image: url("/picture/spain.jpg");
-    width: auto;
-    height: auto;
+    background-size: cover;
 }
 #germany {
     background-image: url("/picture/germany.jpg");
-    width: auto;
-    height: auto;
+    background-size: cover;
 }
 #france {
     background-image: url("/picture/france.jpg");
-    width: auto;
-        height: auto;
+    background-size: cover;
 }
 #czech {
     background-image: url("/picture/czech.jpg");
-    width: auto;
-        height: auto;
-}
+    background-size: cover;
+    }
 #iceland {
     background-image: url("/picture/iceland.jpg");
-    width: auto;
-        height: auto;
+    background-size: cover;
 }
 #austria {
     background-image: url("/picture/austria.jpg");
-    width: auto;
-        height: auto;
+    background-size: cover;
 }
 
 .flex-container {
