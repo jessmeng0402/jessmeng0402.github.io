@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Demo </title>
+  <style>
+  .button {
+    background-color: #6593F5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  </style>
+  <link rel = "stylesheet"
+  type = "text/css"
+  href = "css/jsdemoStyle.css" />
+  <nav id ="navigation">
+    <div class="flex-container">
+      <div><a href="/index.html"> Home </a></div>
+      <div><a href="/Food.html"> Food </a></div>
+      <div><a href="/Travel.html"> Travel</a></div>
+      <div><a href="/Music.html"> Music </a></div>
+      <div><a href="/JSdemo.html"> JS demo </a></div>
+    </div>
+  </nav>
+</head>
+
+<body>
+  <div id="id1">
+    <h1>Javascript demo</h1>
+  </div>
+
+  <div id="button1">
+    <button class="button" type="button"
+    onclick="document.getElementById('id1').style.color = 'blue'">
+    Click me to change paragraph color!</button>
+  </div>
+
+  <div id="p">
+    <p id="html">HTML content</p>
+    <button class="button" type="button" onclick='document.getElementById("html").innerHTML = "JS Demo!"'>
+      Click to change HTML content!</button>
+    </div>
+
+    <div id="date">
+      <p id="datedemo">Today's date is?</p>
+      <button class="button" type="button"
+      onclick="document.getElementById('datedemo').innerHTML = Date()">
+      Click me to display Date and Time.</button>
+    </div>
+
+
+    <script type="text/javascript">
+    alert("You have won 1000 dollars!!");
+    </script>
+
+    <button id="tryit" class="button" onclick="myFunction()">Try it</button>
+
+    <p id="demo"></p>
+
+    <script>
+    function myFunction() {
+      var txt;
+      if (confirm("Press a button!")) {
+        txt = "You pressed OK!";
+      } else {
+        txt = "You pressed Cancel!";
+      }
+      document.getElementById("demo").innerHTML = txt;
+    }
+    </script>
+
+    <button id="buttonon" class="button" onclick="document.getElementById('myImage').src=
+    'https://cdncontribute.geeksforgeeks.org/wp-content/uploads/ONbulb.jpg'">Turn on the light</button>
+
+    <img id="myImage" src="https://cdncontribute.geeksforgeeks.org/wp-content/uploads/OFFbulb.jpg" style="width:100px">
+
+    <button id="buttonoff" class="button" onclick="document.getElementById('myImage').src=
+    'https://cdncontribute.geeksforgeeks.org/wp-content/uploads/OFFbulb.jpg'">Turn off the light</button>
+
+  </body>
+  </html>

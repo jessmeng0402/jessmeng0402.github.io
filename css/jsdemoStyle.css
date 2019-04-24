@@ -1,0 +1,152 @@
+/* myStyle.css */
+
+body {
+    background-color: #add8e6;
+    background-size: cover;
+}
+#id1 {
+    height: 1200px;
+    width: 1200px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    position: absolute;
+    top: 32%;
+    left: 25%;
+    margin-top: -100px;
+    margin-left: -200px;
+
+}
+
+#button1 {
+    position: absolute;
+    top: 28%;
+    left: 8%;
+}
+
+#p {
+  position: absolute;
+  top: 20%;
+  left: 62%;
+}
+
+#p p {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: blue;
+}
+
+#tryit {
+  position: absolute;
+  top: 10%;
+  left: 45%;
+}
+#datedemo {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 200%;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+#date {
+  position: absolute;
+  top: 65%;
+  left: 8%;
+}
+
+#demo {
+  position: absolute;
+  left: 38%;
+}
+
+#buttonon {
+  position: absolute;
+  top: 65%;
+  left: 48%;
+}
+#buttonoff {
+  position: absolute;
+  top: 65%;
+  left: 75%;
+}
+
+#myImage {
+  position: absolute;
+  top: 55%;
+  left: 65%;
+}
+#navigation {
+    text-align: right;
+    display: block;
+    top: 0;
+    width: 100%;
+
+}
+
+#navigation li  {
+  background-color: light-grey;
+  display: inline;
+  font-size: 100%;
+  border-style: solid;
+  border-width: thin;
+  border-color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#navigation ul {
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+    font-style: normal;
+    font-size: 18px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    line-height: 1;
+}
+
+#navigation li a:link {
+    color: white;
+}
+
+#navigation li a:hover {
+    color: yellow;
+}
+
+#navigation li a:visited {
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background: transparent;
+}
+.flex-container > div {
+  background: transparent;
+  width: 50px;
+  margin: 5px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 18 px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  border-radius: 7px;
+  border-color: white;
+  border-style: solid;
+  border-line:thin;
+  padding: 10px;
+}
+
+#start h2 {
+    color: white;
+
+}
+
+#navigation .flex-container >div > a:link {
+    color: white;
+}
+
+#navigation .flex-container >div > a:hover {
+    color: yellow;
+}
+
+#navigation .flex-container >div > a:visited {
+  color: white;
+}
