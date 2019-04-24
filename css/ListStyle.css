@@ -32,6 +32,7 @@ body {
     justify-content: space-between;
 }
 #center-title li {
+    background: transparent;
     display: inline-block;
     font-size: 150%;
     border-style: solid;
@@ -39,7 +40,6 @@ body {
     border-color: white;
     font-color: white;
     border-radius: 5px;
-    background-color: lightgrey;
     padding: 100px;
 }
 img {
