@@ -1,0 +1,170 @@
+/* travelStyle.css */
+
+body {
+    background-image: url("/picture/background.jpg");
+    background-color: #F08080;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+#center-title {
+    height: 1200px;
+    width: 1200px;
+
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+#center-title h1 {
+     font-size: 400%;
+     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+     color: white;
+}
+
+#center-title ul {
+    list-style: none;
+    width: 100%;
+    margin-top: -50px;
+    margin-left: -50px;
+    padding: 50px;
+    display: block;
+    justify-content: space-between;
+}
+#center-title li {
+    display: inline-block;
+    font-size: 150%;
+    border-style: solid;
+    border-width: medium;
+    border-color: white;
+    font-color: white;
+    border-radius: 5px;
+    padding: 100px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#navigation {
+    text-align: right;
+    display: block;
+    top: 0;
+    width: 100%;
+
+}
+
+#navigation li  {
+  background-color: light-grey;
+  display: inline;
+  font-size: 100%;
+  border-style: solid;
+  border-width: thin;
+  border-color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#navigation ul {
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+    font-style: normal;
+    font-size: 18px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    line-height: 1;
+}
+
+#navigation li a:link {
+    color: white;
+}
+
+#navigation li a:hover {
+    color: yellow;
+}
+
+#navigation li a:visited {
+  color: white;
+}
+
+#spain {
+    background-image: url("/picture/spain.jpg");
+    background-size: cover;
+}
+#germany {
+    background-image: url("/picture/germany.jpg");
+    background-size: cover;
+}
+#france {
+    background-image: url("/picture/france.jpg");
+    background-size: cover;
+}
+#czech {
+    background-image: url("/picture/czech.jpg");
+    background-size: cover;
+    }
+#iceland {
+    background-image: url("/picture/iceland.jpg");
+    background-size: cover;
+}
+#austria {
+    background-image: url("/picture/austria.jpg");
+    background-size: cover;
+}
+
+#center-title .flex-container {
+  display: flex;
+  flex-direction: row;
+  background: transparent;
+  height: 400px;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+}
+#center-title .flex-container > div {
+  margin: 20px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 150%;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  border-radius: 7px;
+  border-color: white;
+  border-style: solid;
+  border-line:thin;
+  padding: 100px;
+  color: white;
+}
+#navigation .flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background: transparent;
+}
+#navigation .flex-container > div {
+  color: white;
+  width: 50px;
+  margin: 5px;
+  background: transparent;
+  text-align: center;
+  line-height: 20px;
+  font-size: 18 px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  border-radius: 7px;
+  border-color: white;
+  border-style: solid;
+  border-line:thin;
+  padding: 10px;
+}
+#navigation .flex-container >div > a:link {
+    color: white;
+}
+
+#navigation .flex-container >div > a:hover {
+    color: yellow;
+}
+
+#navigation .flex-container >div > a:visited {
+  color: white;
+}

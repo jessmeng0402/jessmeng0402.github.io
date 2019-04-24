@@ -1,7 +1,3 @@
-/* ListStyle.css */
-head {
-
-}
 body {
     background-image: url("/picture/background.jpg");
     background-color: #F08080;
@@ -91,50 +87,27 @@ img {
   color: white;
 }
 
-#spain {
-    background-image: url("/picture/spain.jpg");
-    background-size: cover;
-}
-#germany {
-    background-image: url("/picture/germany.jpg");
-    background-size: cover;
-}
-#france {
-    background-image: url("/picture/france.jpg");
-    background-size: cover;
-}
-#czech {
-    background-image: url("/picture/czech.jpg");
-    background-size: cover;
-    }
-#iceland {
-    background-image: url("/picture/iceland.jpg");
-    background-size: cover;
-}
-#austria {
-    background-image: url("/picture/austria.jpg");
-    background-size: cover;
-}
-
-#center-title .flex-container {
+#places .flex-container {
   display: flex;
   flex-direction: row;
   background: transparent;
-  height: 400px;
-  width: 70%;
+  height: 200px;
+  width: 60%;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 250px;
 }
-#center-title .flex-container > div {
-  margin: 20px;
+#places .flex-container > div {
+  margin: 30px;
   text-align: center;
-  line-height: 50px;
+  line-height: 100px;
   font-size: 150%;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   border-radius: 7px;
   border-color: white;
   border-style: solid;
-  border-line:thin;
+  border-line: thin;
   padding: 100px;
   color: white;
 }
@@ -143,6 +116,7 @@ img {
   flex-direction: row;
   justify-content: flex-end;
   background: transparent;
+
 }
 #navigation .flex-container > div {
   color: white;

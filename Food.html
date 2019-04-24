@@ -4,7 +4,7 @@
     <title> Food </title>
     <link rel = "stylesheet"
           type = "text/css"
-          href = "css/ListStyle.css" />
+          href = "css/foodStyle.css" />
     <nav id ="navigation">
         <div class="flex-container">
             <div><a href="/index.html"> Home </a></div>
@@ -18,15 +18,19 @@
 
 <body>
 
+<div id="places">
+<h1> Some of my favorite food places include: </h1>
+<div class="flex-container">
+    <div onclick="changeToText(this,'Thai food')">
+        Imm Thai </div>
+    <div onclick="changeToText(this,'Korean food')"> Toust </div>
+    <div onclick="changeToText(this,'Ethipian food')"> Finfine </div>
+    <div onclick="changeToText(this,'Mexican food')"> Taco Sinaloa </div>
+    <div onclick="changeToText(this,'Chinese food')"> Chengdu Style </div>
+    <div onclick="changeToText(this,'Korean fried chicken')"> Cocobang </div>
+</div>
+</div>
 
-<h1> Some of my food places include: </h1>
-<ul>
-    <li> Imm Thai </li>
-    <li> Toust </li>
-    <li> Taco Sinaloa </li>
-    <li> Chengdu Style </li>
-    <li> Cocobang </li>
-</ul>
 
 </body>
 </html>
