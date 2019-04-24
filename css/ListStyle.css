@@ -1,5 +1,7 @@
 /* ListStyle.css */
+head {
 
+}
 body {
     background-image: url("/picture/background.jpg");
     background-color: #F08080;
@@ -49,22 +51,26 @@ img {
     width: 50%;
 }
 
-nav {
+#navigation {
     text-align: right;
     display: block;
-    position: fixed;
     top: 0;
     width: 100%;
 
 }
 
-
-
-nav > ul> li  {
+#navigation li  {
+  background-color: light-grey;
   display: inline;
+  font-size: 100%;
+  border-style: solid;
+  border-width: thin;
+  border-color: white;
+  border-radius: 5px;
+  padding: 10px;
 }
 
-nav > ul {
+#navigation ul {
     padding: 10px;
     margin: 10px;
     list-style-type: none;
@@ -74,14 +80,33 @@ nav > ul {
     line-height: 1;
 }
 
-nav >ul > li a:link {
+#navigation li a:link {
     color: purple;
 }
 
-nav > ul > li a:hover {
+#navigation li a:hover {
     color: yellow;
 }
 
-nav > ul> li a:visited {
+#navigation li a:visited {
   color: blue;
+}
+
+#spain {
+    background-image: url("/picture/spain.jpg");
+}
+#germany {
+    background-image: url("/picture/germany.jpg");
+}
+#france {
+    background-image: url("/picture/france.jpg");
+}
+#czech {
+    background-image: url("/picture/czech.jpg");
+}
+#iceland {
+    background-image: url("/picture/iceland.jpg");
+}
+#austria {
+    background-image: url("/picture/austria.jpg");
 }
