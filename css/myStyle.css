@@ -21,12 +21,16 @@ nav {
     width: 100%;
 }
 
-ul {
-    padding: 0px;
-    margin: 0px;
-    list-style-type: none;
+nav > ul> li  {
+  display: inline;
 }
 
-li {
-    display: inline;
+nav > ul {
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+    font-style: normal;
+    font-size: 18px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    line-height: 1;
 }
