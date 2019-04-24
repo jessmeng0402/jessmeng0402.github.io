@@ -1,0 +1,110 @@
+body {
+    background-image: url("/picture/background.jpg");
+    background-color: #F08080;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#navigation {
+    text-align: right;
+    display: block;
+    top: 0;
+    width: 100%;
+}
+
+#navigation li  {
+  background-color: light-grey;
+  display: inline;
+  font-size: 100%;
+  border-style: solid;
+  border-width: thin;
+  border-color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#navigation ul {
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+    font-style: normal;
+    font-size: 18px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    line-height: 1;
+}
+
+#navigation li a:link {
+    color: white;
+}
+
+#navigation li a:hover {
+    color: yellow;
+}
+
+#navigation li a:visited {
+  color: white;
+}
+
+#music .flex-container {
+  display: flex;
+  flex-direction: row;
+  background: transparent;
+  justify-content: space-around;
+  align-content: space-between;
+
+}
+
+
+#music .flex-container > div {
+  margin: 20px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  border-radius: 7px;
+  border-color: white;
+  border-style: solid;
+  border-line: thin;
+  color: white;
+  flex-basis: 100%;
+}
+#navigation .flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background: transparent;
+
+}
+#navigation .flex-container > div {
+  color: white;
+  width: 50px;
+  margin: 5px;
+  background: transparent;
+  text-align: center;
+  line-height: 20px;
+  font-size: 18 px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  border-radius: 7px;
+  border-color: white;
+  border-style: solid;
+  border-line:thin;
+  padding: 10px;
+}
+#navigation .flex-container >div > a:link {
+    color: white;
+}
+
+#navigation .flex-container >div > a:hover {
+    color: yellow;
+}
+
+#navigation .flex-container >div > a:visited {
+  color: white;
+}
