@@ -5,7 +5,6 @@ head {
 body {
     background-image: url("/picture/background.jpg");
     background-color: #F08080;
-    background-size: cover;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 
 }
@@ -117,7 +116,7 @@ img {
     background-size: cover;
 }
 
-.flex-container {
+#center-title .flex-container {
   display: flex;
   flex-direction: row;
   background: transparent;
@@ -126,7 +125,7 @@ img {
   align-items: center;
   justify-content: center;
 }
-.flex-container > div {
+#center-title .flex-container > div {
   background: transparent;
   margin: 20px;
   text-align: center;
@@ -138,5 +137,37 @@ img {
   border-style: solid;
   border-line:thin;
   padding: 100px;
+  color: white;
+}
+#navigation .flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background: transparent;
+}
+#navigation .flex-container > div {
+  color: white;
+  background: transparent;
+  width: 50px;
+  margin: 5px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 18 px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  border-radius: 7px;
+  border-color: white;
+  border-style: solid;
+  border-line:thin;
+  padding: 10px;
+}
+#navigation .flex-container >div > a:link {
+    color: white;
+}
+
+#navigation .flex-container >div > a:hover {
+    color: yellow;
+}
+
+#navigation .flex-container >div > a:visited {
   color: white;
 }
