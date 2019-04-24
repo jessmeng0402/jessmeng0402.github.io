@@ -32,7 +32,7 @@ ul {
     line-height: 2;
 }
 
-nav > li {
+nav > ul> li  {
   display: inline;
 }
 
@@ -43,4 +43,5 @@ nav > ul {
     font-style: normal;
     font-size: 14px;
     font-family: Helvetica, Arial, sans-serif;
+    line-height: 1;
 }
