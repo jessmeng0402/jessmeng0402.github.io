@@ -69,3 +69,29 @@ img {
 #navigation li a:visited {
   color: white;
 }
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background: transparent;
+}
+.flex-container > div {
+  background: transparent;
+  width: 50px;
+  margin: 5px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 15px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  border-radius: 7px;
+  border-color: white;
+  border-style: solid;
+  border-line:thin;
+  padding: 10px;
+}
+
+#start h2 {
+    color: white;
+
+}
