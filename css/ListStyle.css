@@ -126,7 +126,6 @@ img {
   justify-content: center;
 }
 #center-title .flex-container > div {
-  background: transparent;
   margin: 20px;
   text-align: center;
   line-height: 50px;
@@ -149,6 +148,7 @@ img {
   color: white;
   width: 50px;
   margin: 5px;
+  background: transparent;
   text-align: center;
   line-height: 20px;
   font-size: 18 px;
