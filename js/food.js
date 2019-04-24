@@ -1,3 +1,4 @@
-function changeToText(elmnt,clr) {
-  elmnt.style.color = clr;
+function changeToText(elmnt,text) {
+  elmnt.style.color = "red";
+  elmnt.innerHTML = text;
 }
