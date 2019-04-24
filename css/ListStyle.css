@@ -46,3 +46,15 @@ nav > ul {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     line-height: 1;
 }
+
+nav >ul > li a:link {
+    color: purple;
+}
+
+nav > ul > li a:hover {
+    color: yellow;
+}
+
+nav > ul> li a:visited {
+  color: blue;
+}
