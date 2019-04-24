@@ -3,6 +3,7 @@
 body {
     background-color: #F08080;
     background-image: url("/picture/background.jpg");
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 
 }
 
@@ -42,6 +43,6 @@ nav > ul {
     list-style-type: none;
     font-style: normal;
     font-size: 14px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     line-height: 1;
 }
