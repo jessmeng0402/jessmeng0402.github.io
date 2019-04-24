@@ -9,11 +9,12 @@ body {
     height: 1200px;
     width: 1200px;
 
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     margin-top: -100px;
     margin-left: -200px;
+
 
 }
 #big_title h1 {
@@ -21,11 +22,16 @@ body {
      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
      color: white;
      text-align: center;
-     position: absolute;
-         bottom: 10%;
-         left: 0;
+
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}
 
 #navigation {
     text-align: right;
@@ -104,12 +110,4 @@ body {
 
 #navigation .flex-container >div > a:visited {
   color: white;
-}
-
-#pic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 50%;
 }
