@@ -92,11 +92,11 @@ img {
   flex-direction: row;
   background: transparent;
   height: 200px;
-  width: 60%;
+  width: 30%;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin-left: 250px;
+
 }
 #places .flex-container > div {
   margin: 30px;
@@ -110,6 +110,7 @@ img {
   border-line: thin;
   padding: 100px;
   color: white;
+  flex-basis: 100%;
 }
 #navigation .flex-container {
   display: flex;

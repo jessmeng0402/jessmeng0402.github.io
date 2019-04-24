@@ -1,3 +1,3 @@
-function changeToText(element, txt) {
-    document.getElementById(element).innerHTML = txt;
+function changeToText(elmnt,clr) {
+  elmnt.style.color = clr;
 }
