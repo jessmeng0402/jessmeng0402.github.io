@@ -11,18 +11,37 @@ body {
     width: 1200px;
 
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 30%;
     margin-top: -100px;
     margin-left: -100px;
 }
-div > h1 {
+#center-title h1 {
      font-size: 400%;
      font-family: Helvetica, Arial, sans-serif;
      color: white;
-
 }
 
+#center-title ul {
+    list-style: none;
+    width: 100%;
+    margin-top: -50px;
+    margin-left: -50px;
+    padding: 50px;
+    display: block;
+    justify-content: space-between;
+}
+#center-title li {
+    display: inline-block;
+    font-size: 150%;
+    border-style: solid;
+    border-width: medium;
+    border-color: white;
+    font-color: white;
+    border-radius: 5px;
+    background-color: lightgrey;
+    padding: 100px;
+}
 img {
     display: block;
     margin-left: auto;
@@ -39,15 +58,7 @@ nav {
 
 }
 
-ul {
-    padding: 20px;
-    margin: 5px;
-    list-style-type: square;
-    font-style: normal;
-    font-size: 14px;
-    font-family: Helvetica, Arial, sans-serif;
-    line-height: 2;
-}
+
 
 nav > ul> li  {
   display: inline;
