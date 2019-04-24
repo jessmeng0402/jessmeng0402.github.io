@@ -2,42 +2,6 @@ body {
     background-image: url("/picture/background.jpg");
     background-color: #F08080;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-
-}
-#center-title {
-    height: 1200px;
-    width: 1200px;
-
-    position: absolute;
-    top: 30%;
-    left: 30%;
-    margin-top: -100px;
-    margin-left: -100px;
-}
-#center-title h1 {
-     font-size: 400%;
-     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-     color: white;
-}
-
-#center-title ul {
-    list-style: none;
-    width: 100%;
-    margin-top: -50px;
-    margin-left: -50px;
-    padding: 50px;
-    display: block;
-    justify-content: space-between;
-}
-#center-title li {
-    display: inline-block;
-    font-size: 150%;
-    border-style: solid;
-    border-width: medium;
-    border-color: white;
-    font-color: white;
-    border-radius: 5px;
-    padding: 100px;
 }
 img {
     display: block;
@@ -51,7 +15,6 @@ img {
     display: block;
     top: 0;
     width: 100%;
-
 }
 
 #navigation li  {
@@ -91,24 +54,26 @@ img {
   display: flex;
   flex-direction: row;
   background: transparent;
-  height: 200px;
-  width: 30%;
+  height: 400px;
+  width: 70%;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
 
 }
+
 #places .flex-container > div {
-  margin: 30px;
+  margin: 20px;
+  height: 200px;
   text-align: center;
-  line-height: 100px;
+  line-height: 50px;
   font-size: 150%;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   border-radius: 7px;
   border-color: white;
   border-style: solid;
   border-line: thin;
-  padding: 100px;
+  padding: 80px;
   color: white;
   flex-basis: 100%;
 }

@@ -1,7 +1,8 @@
 function changeToText(elmnt,txt) {
+  const curr = elmnt.innerHTML;
   elmnt.style.color = "yellow";
   elmnt.innerHTML = txt;
-  elmnt.style.backgroundColor = "lightgrey";
+  elmnt.style.backgroundImage = "url('/picture/" + curr + ".jpg')"
 }
 
 function changeTextBack(elmnt, txt){
