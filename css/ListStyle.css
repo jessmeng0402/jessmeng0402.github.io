@@ -34,7 +34,6 @@ body {
     justify-content: space-between;
 }
 #center-title li {
-    background: transparent;
     display: inline-block;
     font-size: 150%;
     border-style: solid;
