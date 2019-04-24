@@ -20,7 +20,7 @@ body {
 }
 #center-title h1 {
      font-size: 400%;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
      color: white;
 }
 
@@ -81,7 +81,7 @@ img {
 }
 
 #navigation li a:link {
-    color: purple;
+    color: white;
 }
 
 #navigation li a:hover {
@@ -89,7 +89,7 @@ img {
 }
 
 #navigation li a:visited {
-  color: blue;
+  color: white;
 }
 
 #spain {
