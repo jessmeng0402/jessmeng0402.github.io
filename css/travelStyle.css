@@ -122,8 +122,6 @@ img {
   width: 70%;
   align-items: center;
   justify-content: center;
-   flex-wrap: wrap;
-    flex-flow: row wrap;
 }
 #center-title .flex-container > div {
   margin: 20px;
