@@ -4,31 +4,34 @@ body {
     /*background-image: url("/picture/background.jpg"); */
     background-color: #F08080;
     /*background-size: cover; */
+    margin: auto;
 }
-#big-title {
-    height: 1200px;
-    width: 1200px;
-
-    position: fixed;
-    top: 70%;
-    left: 0%;
-    margin-top: -100px;
-    margin-left: -200px;
-    background-color: #80bfff;
-
+h1, p, a, form, div {
+  font-family: 'Montserrat';
+  text-decoration: none;
 }
-#big_title h1 {
-     font-size: 400%;
-     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-     color: white;
-     text-align: center;
+
+.header {
+  background: rgb(238,31,31);
+  background: linear-gradient(180deg, rgba(238,31,31,1) 0%, rgba(202,51,105,1) 100%);
+  padding: 20px 220px;
+  position: absolute;
+      top: 0%;
+      left: 0%;
+      margin: auto;
+}
+
+.header h1 {
+  margin: 0;
+  color: white;
+  font-size: 20px;
 }
 
 #navigation {
     text-align: right;
     display: block;
     top: 0;
-    width: 100%;
+
 }
 
 .flex-container {
@@ -44,7 +47,6 @@ body {
   text-align: center;
   line-height: 20px;
   font-size: 18 px;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   border-radius: 7px;
   border-color: white;
   border-style: solid;

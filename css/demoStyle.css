@@ -1,7 +1,7 @@
 /* myStyle.css */
 
 body {
-    background-image: url("/picture/background.jpg");
+    background-image: url("picture/background.jpg");
     background-color: #F08080;
     background-size: cover;
 }
@@ -26,11 +26,13 @@ body {
 }
 
 img {
-    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     height: 50%;
+    position: relative;
+    bottom: 10px;
+    left: 5px;
 }
 
 #navigation {
@@ -111,3 +113,4 @@ img {
 #navigation .flex-container >div > a:visited {
   color: white;
 }
+
